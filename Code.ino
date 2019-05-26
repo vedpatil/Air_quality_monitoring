@@ -71,7 +71,7 @@ void loop() {
   Serial.println(gas_data);
   delay(2000);
   
-     if(eCO2 >= 1000)
+     if(eCO2 >= 10000)
         {
           digitalWrite(2,1);
         }
